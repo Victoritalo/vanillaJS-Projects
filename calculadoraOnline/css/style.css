@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+:root {
+  --resultOperation: #c2c2c2;
+  --currentOperation: #ffffff;
+  --clearBtn: #343434;
+  --equalBtn: #343434;
+  --operatorsBtn: #66ff7f;
+  --btnBg: #343434;
+  --btnBgHover: #202020;
+  --textBtn: #ffffff;
+  --calculatorBg: #090909;
+  --bg: #d2cdcd;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding: 3em; */
+  height: 100vh;
+  width: 100vw;
+}
+#resultOperation,
+#currentOperation {
+  background-color: var(--calculatorBg);
+  border: none;
+  overflow-wrap: break-word;
+  text-align: right;
+  min-height: 1.6em;
+  padding: 0.2em;
+}
+#resultOperation {
+  color: var(--resultOperation);
+  font-size: 1.8em;
+}
+#currentOperation {
+  color: var(--currentOperation);
+  font-size: 3.2em;
+  font-weight: 700;
+  margin-top: 0.5em;
+}
+#operations {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+#calculator {
+  background-color: var(--calculatorBg);
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1.8em;
+}
+
+#calculator h2 {
+  padding: 1em;
+  font-size: 0.8em;
+  font-weight: 300;
+  color: #969696;
+}
+
+#containerBtn {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 4px;
+  padding: 1.1em;
+  border-top: 1px solid var(--equalBtn);
+}
+
+#containerBtn button {
+  border: 1px solid transparent;
+  border-radius: 0.5em;
+  height: 68px;
+  /* width: 68px; */
+  font-size: 1.8em;
+  color: var(--textBtn);
+  background-color: var(--btnBg);
+  cursor: pointer;
+  margin-top: 12px;
+}
+
+#containerBtn button:hover {
+  background-color: var(--btnBgHover);
+}
+
+#containerBtn #clearBtn{
+  color: var(--btnBg);
+  background-color: #FF5959;
+}
+#containerBtn #clearBtn:hover{
+  background-color: #ce3636;
+}
+
+#containerBtn #equalBtn{
+  color: var(--btnBg);
+  background-color: #66FF7F;
+}
+
+#containerBtn #equalBtn:hover{
+  background-color: #6ec27c;
+}
+#containerBtn .operatorsBtn {
+  color: #66ff7f;
+}
+#containerBtn #deleteBtn{
+  fill: var(--textBtn);
+}
+.whiteBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.toolsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+.history {
+  cursor: pointer;
+  width: 24px;
+  margin: 5px 0px 15px 10px;
+  fill: var(--textBtn);
+}
+.copyToClipBoard {
+  cursor: pointer;
+  width: 24px;
+  margin: 5px 0px 15px 10px;
+  fill: var(--textBtn);
+}
+
+.vicCode {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.vicCode a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.vicCode span{
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  animation: animate 3s ease-in-out infinite;
+  animation-delay: calc(0.1s * var(--i));
+}
+@keyframes animate {
+  0% {
+    transform: translateY(0px);
+  }
+  20% {
+    transform: translateY(-20px);
+  }
+  40%,
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+}
