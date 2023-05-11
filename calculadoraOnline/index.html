@@ -11,8 +11,8 @@
     <div id="calculator">
         <h2>Calculadora</h2>
         <div id="operations">
-            <input type="button" id="currentOperation" value=""></input>
-            <input type="button" id="resultOperation"></input>
+            <div type="button" id="previoustOperation"></div>
+            <div type="button" id="currentOperation"></div>
         </div>
         <div class="toolsContainer">
             <div class="history">
@@ -26,7 +26,6 @@
             </div>
             <div class="copyToClipBoard">
                 <svg width="28px" height="28px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                    <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
                     <title>Copy to clipboard</title>
                     <desc>Created with Sketch.</desc>
                     <g id="🔍-Product-Icons" stroke="none" stroke-width="1" fill="" fill-rule="">
@@ -43,7 +42,7 @@
             <button type="button" id="clearBtn"  value="clear">C</button>
             <button type="button" id="plusMinus" class="operatorsBtn"  value="">+/-</button>
             <button type="button" class="operatorsBtn"  value="%">%</button>
-            <button type="button" class="operatorsBtn"  value="/">&divide</button>
+            <button type="button" class="operatorsBtn"  value="/">÷</button>
             <button type="button" class="number"  value="7">7</button>
             <button type="button" class="number"  value="8">8</button>
             <button type="button" class="number"  value="9">9</button>
@@ -66,13 +65,13 @@
             <button type="button" id="equalBtn" value="">=</button>
         </div>
         <div class="whiteBar">
-            <img src="/svg/whiteLine.svg" alt="">
+            <img src="/calculadoraOnline/svg/whiteLine.svg" alt="white bar">
         </span>
     </div>
     <div class="vicCode">
         <a href="https://github.com/Victoritalo" target="_blank" rel="noopener">
             Made with ❤ by:
-            <!-- <span style="--i:1">V</span>
+            <span style="--i:1">V</span>
             <span style="--i:2">i</span>
             <span style="--i:3">c</span>
             <span style="--i:4">t</span>
@@ -83,7 +82,7 @@
             <span style="--i:9">t</span>
             <span style="--i:10">a</span>
             <span style="--i:11">l</span>
-            <span style="--i:12">o</span> -->
+            <span style="--i:12">o</span>
         </a>
     </div>
     <script src="./script/index.js"></script>
