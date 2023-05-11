@@ -9,15 +9,15 @@ Este projeto tem como objetivo desenvolver a lógica tanto na implementação de
 
 ## Proposta
 * **Cálculos simples de matemática**
-  * *Adição*
-  * *Subtração*
-  * *Multiplicação*
-  * *Divisão*
+  - *Adição*
+  - *Subtração*
+  - *Multiplicação*
+  - *Divisão*
 * **Funcionalidade**
-  * *Apagar toda a operação*
-  * *Apagar o último número digitado*
-  * *Histórico de cálculos*
-  * *Copiar o resultado(copy to clipboard)*
+  - *Apagar toda a operação*
+  - *Apagar o último número digitado*
+  - *Histórico de cálculos*
+  - *Copiar o resultado(copy to clipboard)*
 
 ## 
 
