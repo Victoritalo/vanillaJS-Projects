@@ -23,8 +23,7 @@ Este projeto tem como propósito criar um sistema de **RECADOS**, onde o usuári
   - *Alerta visual com popup caso senha ou email estejam incorretos*
   - *Botão para visualizar senha digitada*
   - *Autenticação e TOKEN*
->>
-  Autenticação e Token são utilizados para permitir que apenas usuários autenticados visualizem os recados. Um usuário que esteja logado com um token ativo terá acesso aos recados, enquanto um usuário não autenticado será redirecionado para a página de login e não poderá visualizá-los. É importante destacar que o uso de autenticação e token aumenta a segurança do sistema, protegendo as informações dos usuários e prevenindo acessos não autorizados.
+    >Autenticação e Token são utilizados para permitir que apenas usuários autenticados visualizem os recados. Um usuário que esteja logado com um token ativo terá acesso aos recados, enquanto um usuário não autenticado será redirecionado para a página de login e não poderá visualizá-los. É importante destacar que o uso de autenticação e token aumenta a segurança do sistema, protegendo as informações dos usuários e prevenindo acessos não autorizados.
 
 * **Funcionalidades Sistema Mensagem**
   - *Criar mensagem personalizada*
