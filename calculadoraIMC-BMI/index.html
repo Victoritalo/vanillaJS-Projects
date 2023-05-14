@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora IMC</title>
+</head>
+<body>
+<header class="headerStyle">
+  <h2>
+    A história do IMC
+  </h2>
+  <h1>
+    O que é IMC e como ele está ligado à obesidade?
+  </h1>
+</header>
+<main class="container">
+  <article>
+    <p>
+      A obesidade é uma condição médica em que uma pessoa acumula excesso de gordura corporal que pode prejudicar a saúde. Ela é caracterizada por um índice de massa corporal (IMC) igual ou superior a 30 kg/m².
+    </p>
+    <p>
+      Adolfhe Quetelet, considerado o pai da Antropometria Científica, desenvolveu o Índice de Quetelet em 1832, que é conhecido atualmente como Índice de Massa Corporal (IMC), substituindo os padrões subjetivos por métodos estatísticos através do uso de tabelas de altura e peso para estudar suas relações.
+    </p>
+    <h2>
+      Como calcular o IMC?
+    </h2>
+    <p>
+      Para saber seu IMC é muito simples. Basta você dividir seu peso (em quilogramas) pela sua altura (em metros) ao quadrado. Não entendeu? Tá aqui a fórmula:
+    </p>
+    <h2>
+      IMC = Peso ÷ Altura²
+    </h2>
+    <h2>
+      Qual será o seu IMC?
+    </h2>
+    <p>
+      Temos aqui abaixo uma calculadora automática. Basta você inserir os dados e o resultado já sai na hora. De posse deste índice é só consultar a tabela que indica os níveis de obesidade.
+    </p>
+    <h2>
+      Preencha os campos abaixo e descubra o seu IMC (índice de Massa Corporal)
+    </h2>
+    <div class="calc_imc">
+      <label id="label_peso">Seu peso (KG)</label>
+        <input
+          type="number" id="peso_usuario" min="0" max="200" step="0.1" maxlength="6"
+        />
+
+        <label id="label_altura">Sua altura em CM</label>
+        <input
+          type="number" id="altura_usuario" min="0" max="2.5" step="0.1" maxlength="4"
+        />
+
+        <button type="submit" id="button_calcular" form="form" value="calcular">
+          Calcular
+        </button>
+    </div>
+  </article>
+
+</main>
+</body>
+</html>
