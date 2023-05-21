@@ -154,6 +154,10 @@ input::placeholder {
   cursor: pointer;
   margin-top: 50px;
   width: 180px;
+  transition: transform .2s;
+}
+.calc_imc button:hover{
+  transform: scale(1.1);
 }
 .title_resultado,
 .resultado_valor,
@@ -219,8 +223,50 @@ footer {
   text-align: center;
   margin-top: 3em;
   padding: 20px;
-  background-color: var(--textColor);
-  color: var(--colorFiveStyle);
+  background-color: var(--colorThreeStyle);
+  color: var(--colorFourStyle);
   width: 100%;
   font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+  header {
+    width: 100%;
+  }
+  .headerStyle h2 {
+    font-size: 3rem;
+  }
+  .container {
+    width: 100%;
+  }
+  .text_container {
+    padding: 15px;
+  }
+  .calc_section {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bgColor);
+  }
+
+  .calc_tabela, .calc_imc {
+    width: 100vw;
+    min-height: auto;
+  }
+  .calc_input input{
+    width: 50vw;
+  }
+
+  .mensagem_positiva h2, .mensagem_positiva p {
+    color: var(--colorFourStyle);
+    padding: 12px;
+}
+.encontre_medico a {
+  padding: 10px;
+  width: 280px;
+  font-size: 16px;
+}
+
 }
