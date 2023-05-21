@@ -228,7 +228,22 @@ footer {
   width: 100%;
   font-size: 18px;
 }
-
+footer i{
+  padding: 10px;
+  color: var(--colorTwoStyle);
+  font-size: 22px;
+  text-align: center;
+  transition: transform .2s;
+}
+.social ul{
+  display: grid;
+  grid-template-columns: 50px 50px 50px;
+  justify-content: center;
+}
+footer i:hover{
+  animation: 2s;
+  transform: scale(1.5);
+}
 @media screen and (max-width: 768px) {
   body {
     overflow-x: hidden;
