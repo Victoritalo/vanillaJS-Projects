@@ -17,13 +17,16 @@ function calcular_imc() {
   let imc = peso / (altura / 100) ** 2;
   imc = imc.toFixed(2);
   if (imc < 18.5) {
-    console.log(imc);
     valorResult.innerHTML = imc;
     grauResultado.innerHTML = "Abaixo do peso ideal";
     calcResultStyle.setAttribute("style", "display: block");
   } else if (imc >= 18.5 && imc <= 24.9) {
     valorResult.innerHTML = imc;
     grauResultado.innerHTML = "Peso normal ou adequado";
+    calcResultStyle.setAttribute("style", "display: block");
+  } else if (imc >= 25.0 && imc <= 29.9) {
+    valorResult.innerHTML = imc;
+    grauResultado.innerHTML = "Sobrepeso";
     calcResultStyle.setAttribute("style", "display: block");
   } else if (imc >= 30.0 && imc <= 34.9) {
     valorResult.innerHTML = imc;
