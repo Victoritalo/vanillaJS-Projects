@@ -17,7 +17,11 @@ body {
   align-items: center;
   background-color: var(--bgColor);
   height: 100vh;
+<<<<<<< HEAD
+  width: 99vw;
+=======
   width: 100vw;
+>>>>>>> 5a24d8b4ee1107d506420b9f394f994c7bc7b837
   font-family: "Archivo", sans-serif;
   font-weight: lighter;
   font-size: 24px;
@@ -36,16 +40,26 @@ header {
 .headerStyle h2 {
   margin: 68px 0px 18px 0px;
   font-size: 4rem;
+  margin: 68px 0px 18px 0px;
+  font-size: 4rem;
   font-weight: 600;
   color: var(--colorThreeStyle);
+  border-bottom: 2px solid var(--colorTwoStyle);
   border-bottom: 2px solid var(--colorTwoStyle);
 }
 .headerStyle h1 {
   margin: 58px 0px 9px 0px;
+<<<<<<< HEAD
+  padding: 1.1em;
+  font-size: 1.2em;
+  color: var(--colorFourStyle);
+  width: 95%;
+=======
   padding: 1.1em 0em 1.1em 0em;
   font-size: 1.2em;
   color: var(--colorFourStyle);
   width: 100%;
+>>>>>>> 5a24d8b4ee1107d506420b9f394f994c7bc7b837
   background-color: var(--colorTwoStyle);
 }
 .headerStyle p {
@@ -53,6 +67,7 @@ header {
   width: 80%;
 }
 .container {
+  width: 80%;
   width: 80%;
 }
 
@@ -76,22 +91,29 @@ header {
   justify-content: center;
   align-items: center;
   margin: 52px 0px 52px 0px;
+  margin: 52px 0px 52px 0px;
   width: 100%;
+  background-color: var(--colorThreeStyle);
   background-color: var(--colorThreeStyle);
 }
 
 th,
 td {
   padding: 1em;
+  padding: 1em;
   text-align: left;
 }
 
+.calc_tabela {
+  user-select: none;
 .calc_tabela {
   user-select: none;
   border-spacing: 0;
   border-collapse: collapse;
   font-size: 18px;
   color: var(--colorSixStyle);
+  width: 70%;
+  min-height: 54vh;
   width: 70%;
   min-height: 54vh;
 }
@@ -110,6 +132,9 @@ td {
 
 .calc_imc {
   width: 35%;
+<<<<<<< HEAD
+=======
+>>>>>>> 5a24d8b4ee1107d506420b9f394f994c7bc7b837
   background-color: var(--colorThreeStyle);
   display: flex;
   flex-direction: column;
@@ -125,8 +150,9 @@ td {
 }
 .calc_input input {
   display: block;
-  margin-top: 10px;
   padding: 1rem;
+  padding: 1rem;
+  height: 3vh;
   width: 20vw;
   outline: none;
   background-color: var(--colorFourStyle);
@@ -142,14 +168,15 @@ input::placeholder {
   color: var(--textColor);
 }
 
-.calc_imc button {
+  width: 50%;
   background-color: var(--colorTwoStyle);
   color: var(--colorFourStyle);
   font-size: 18px;
   font-weight: 600;
   border: none;
-  border-radius: 5px;
   padding: 18px;
+  padding: 18px;
+  height: 40px;
   cursor: pointer;
   margin: 30px 0px 20px 0px;
   width: 180px;
@@ -157,6 +184,13 @@ input::placeholder {
 }
 .calc_imc button:hover{
   transform: scale(1.1);
+}
+.title_resultado,
+.resultado_valor,
+.resultado_grau {
+  color: var(--colorFourStyle);
+  font-weight: 600;
+  padding: 8px;
 }
 .title_resultado,
 .resultado_valor,
@@ -221,8 +255,14 @@ input::placeholder {
 footer {
   text-align: center;
   margin-top: 3em;
+<<<<<<< HEAD
+  padding: 20px;
+  background-color: var(--textColor);
+  color: var(--colorFiveStyle);
+=======
   background-color: var(--colorThreeStyle);
   color: var(--colorFourStyle);
+>>>>>>> 5a24d8b4ee1107d506420b9f394f994c7bc7b837
   width: 100%;
   font-size: 18px;
 }
