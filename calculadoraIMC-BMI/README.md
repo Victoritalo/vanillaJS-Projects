@@ -2,12 +2,9 @@
 
 Este projeto tem como objetivo criar uma aplicação em JavaScript que permita aos usuários calcular o Índice de Massa Corporal (IMC). Com essa aplicação, os usuários poderão inserir seus dados de peso e altura, e o resultado do cálculo do IMC será exibido de forma imediata.
 
-
-
 ## Overview
 
 #### HTML5, CSS3 & Javascript <br>[Visite o site ✅](https://darling-sawine-fe98ad.netlify.app)
-
 
 ## Proposta
 * **(IMC) Calculator**
@@ -30,8 +27,6 @@ Este projeto tem como objetivo criar uma aplicação em JavaScript que permita a
 
 ## 
 
-
 ![Screenshot_246](https://github.com/Victoritalo/vanillaJS-Projects/assets/108995269/0d17c995-1414-40a1-ad5b-bd62ab4492c0)
-
 
 ## 
