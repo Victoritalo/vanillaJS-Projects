@@ -4,7 +4,7 @@ Este projeto tem como objetivo criar uma aplicação em JavaScript que permita a
 
 ## Overview
 
-#### HTML5, CSS3 & Javascript <br>[Visite o site ✅](https://darling-sawine-fe98ad.netlify.app)
+#### HTML5, CSS3 & Javascript <br>[Visite o site ✅](https://verdant-smakager-20b749.netlify.app/)
 
 ## Proposta
 * **(IMC) Calculator**
