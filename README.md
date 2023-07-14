@@ -22,5 +22,5 @@
 ## 
 
 ### Calculadora  IMC(BMI Calculator)<br>
-##### HTML5, CSS3 & Javascript <br>[Visite o site ✅](https://darling-sawine-fe98ad.netlify.app)  <br> [Repositório📚](https://github.com/Victoritalo/vanillaJS-Projects/tree/main/calculadoraIMC-BMI)
+##### HTML5, CSS3 & Javascript <br>[Visite o site ✅](https://verdant-smakager-20b749.netlify.app/)  <br> [Repositório📚](https://github.com/Victoritalo/vanillaJS-Projects/tree/main/calculadoraIMC-BMI)
 ![Screenshot_246](https://github.com/Victoritalo/vanillaJS-Projects/assets/108995269/0d17c995-1414-40a1-ad5b-bd62ab4492c0)
