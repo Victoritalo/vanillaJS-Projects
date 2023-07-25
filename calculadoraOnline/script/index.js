@@ -21,60 +21,60 @@ class calc {
   }
 
   deleteLastNumber() {
-    this.currentOperation = this.currentOperation.slice(0, -1)
+    this.currentOperation = this.currentOperation.slice(0, -1);
   }
 
   addNumber(number) {
-    if (number === "." && this.currentOperation.includes(".")) { 
-        return
+    if (number === "." && this.currentOperation.includes(".")) {
+      return;
     }
-    this.currentOperation += number.toString()
+    this.currentOperation += number.toString();
   }
 
   operatorionSelect(operators) {
-    if(this.currentOperation === '') {
+    if (this.currentOperation === "") {
       return;
     }
 
-    if(this.previoustOperation !== ''){
-      this.execOperation()
+    if (this.previoustOperation !== "") {
+      this.execOperation();
     }
-    this.operators = operators
-    this.previoustOperation = this.currentOperation
-    this.currentOperation = ''
+    this.operators = operators;
+    this.previoustOperation = this.currentOperation;
+    this.currentOperation = "";
   }
 
   execOperation() {
-    let calculateOperation
+    let calculateOperation;
     let previous = parseFloat(this.previoustOperation);
     let current = parseFloat(this.currentOperation);
-    if(isNaN(previous) || isNaN(current)){
-      return
+    if (isNaN(previous) || isNaN(current)) {
+      return;
     }
 
-    switch(this.operators){
-      case '+':
-        calculateOperation = previous + current
-        break
+    switch (this.operators) {
+      case "+":
+        calculateOperation = previous + current;
+        break;
 
-        case '-':
-        calculateOperation = previous - current
-        break
+      case "-":
+        calculateOperation = previous - current;
+        break;
 
-        case 'x':
-        calculateOperation = previous * current
-        break
+      case "x":
+        calculateOperation = previous * current;
+        break;
 
-        case '÷':
-        calculateOperation = previous / current
-        break
+      case "÷":
+        calculateOperation = previous / current;
+        break;
 
-        default:
-          return
+      default:
+        return;
     }
-    this.currentOperation = calculateOperation
-    this.operators = undefined
-    this.previoustOperation = ''
+    this.currentOperation = calculateOperation;
+    this.operators = undefined;
+    this.previoustOperation = "";
   }
 
   updateDisplay() {
@@ -87,30 +87,30 @@ class calc {
 const calculator = new calc(previoustOperationText, currentOperationText);
 
 numbersBtn.forEach((elementValue) => {
-    elementValue.addEventListener("click", () => {
+  elementValue.addEventListener("click", () => {
     calculator.addNumber(elementValue.innerText);
     calculator.updateDisplay();
   });
 });
 
 operatorsBtn.forEach((elementValue) => {
-    elementValue.addEventListener("click", () => {
-      calculator.operatorionSelect(elementValue.innerText);
-      calculator.updateDisplay();
-    });
+  elementValue.addEventListener("click", () => {
+    calculator.operatorionSelect(elementValue.innerText);
+    calculator.updateDisplay();
   });
+});
 
-  resultBtn.addEventListener('click', () => {
-    calculator.execOperation();
-    calculator.updateDisplay();
-  })
+resultBtn.addEventListener("click", () => {
+  calculator.execOperation();
+  calculator.updateDisplay();
+});
 
-  clearAllBtn.addEventListener('click', () => {
-    calculator.clearAll();
-    calculator.updateDisplay();
-  })
+clearAllBtn.addEventListener("click", () => {
+  calculator.clearAll();
+  calculator.updateDisplay();
+});
 
-  deleteNumberBtn.addEventListener('click', () => {
-    calculator.deleteLastNumber();
-    calculator.updateDisplay();
-  })
+deleteNumberBtn.addEventListener("click", () => {
+  calculator.deleteLastNumber();
+  calculator.updateDisplay();
+});
