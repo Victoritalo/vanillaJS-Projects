@@ -52,7 +52,6 @@ body {
 #operations {
   display: flex;
   flex-direction: column;
-  
 }
 
 #calculator {
@@ -94,26 +93,26 @@ body {
   background-color: var(--btnBgHover);
 }
 
-#containerBtn #clearBtn{
+#containerBtn #clearBtn {
   color: var(--btnBg);
-  background-color: #FF5959;
+  background-color: #ff5959;
 }
-#containerBtn #clearBtn:hover{
+#containerBtn #clearBtn:hover {
   background-color: #ce3636;
 }
 
-#containerBtn #equalBtn{
+#containerBtn #equalBtn {
   color: var(--btnBg);
-  background-color: #66FF7F;
+  background-color: #66ff7f;
 }
 
-#containerBtn #equalBtn:hover{
+#containerBtn #equalBtn:hover {
   background-color: #6ec27c;
 }
 #containerBtn .operatorsBtn {
   color: #66ff7f;
 }
-#containerBtn #deleteBtn{
+#containerBtn #deleteBtn {
   fill: var(--textBtn);
 }
 .whiteBar {
@@ -147,12 +146,12 @@ body {
   right: 10px;
 }
 
-.vicCode a{
+.vicCode a {
   text-decoration: none;
   color: #fff;
 }
 
-.vicCode span{
+.vicCode span {
   position: relative;
   display: inline-block;
   color: #fff;
