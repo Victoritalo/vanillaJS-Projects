@@ -3,7 +3,7 @@
 
 #### Estes são projetos feitos com uso de Javascript puro, HTML5 e CSS. A intenção destes projetos é treinar a lógica e melhorar o pensamento analítico. <br>
 
-## jklj
+## 
  
  ### Projeto CRUD(Create - Read - Update - Delete)
 ##### HTML5, CSS3 & Javascript <br>[Visite o site ✅](https://chic-lamington-568bf1.netlify.app/index.html)  <br>UI by: Victor Italo<br> [Repositório📚](https://github.com/Victoritalo/vanillaJS-Projects/tree/main/atividadeCrud)
